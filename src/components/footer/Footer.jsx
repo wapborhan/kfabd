@@ -159,15 +159,15 @@ function Footer(props) {
         </div>
       </div>
       <div className="footer-bottom">
-        <div className="container">
+        <div className="containerpd">
           <div className="wrap-fx">
             <div className="Copyright">
-              <p>
-                KFAbd {d.getFullYear()}- ALL rights reserved | Designed By{" "}
-                <a href="https://www.srdreamlab.com">SR Dream Lab</a>
-              </p>
+              <p>KFAbd {d.getFullYear()}- ALL rights reserved</p>
             </div>
-            <ul className="list">
+            <div className="right">
+              Designed By <a href="https://www.srdreamlab.com">SR Dream Lab</a>
+            </div>
+            {/* <ul className="list">
               <li>
                 <Link to="#">Privacy Policy</Link>
               </li>
@@ -180,7 +180,7 @@ function Footer(props) {
               <li>
                 <Link to="#">Contact Us</Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
