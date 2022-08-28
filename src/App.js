@@ -1,6 +1,8 @@
 import React, { useEffect, Fragment } from "react";
 import AOS from "aos";
 import { Route, Routes } from "react-router-dom";
+import "../src/assets/font/font-awesome.css";
+import "./App.scss";
 
 //
 import Header from "./components/header/Header";
