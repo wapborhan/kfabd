@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { useEffect, Fragment } from "react";
 import AOS from "aos";
 import { Route, Routes } from "react-router-dom";
 
@@ -10,11 +10,11 @@ import routes from "./pages";
 import Page404 from "./pages/404";
 
 const App = () => {
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 2000,
-  //   });
-  // }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <Fragment>
       <Header />
