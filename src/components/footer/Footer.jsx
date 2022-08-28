@@ -29,6 +29,8 @@ function Footer(props) {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
+  var d = new Date();
+
   return (
     <footer id="footer">
       <div className="footer-main">
@@ -160,7 +162,7 @@ function Footer(props) {
         <div className="container">
           <div className="wrap-fx">
             <div className="Copyright">
-              <p>CYBOX 2022- ALL rights reserved</p>
+              <p>KFAbd {d.getFullYear()}- ALL rights reserved</p>
             </div>
             <ul className="list">
               <li>
@@ -173,7 +175,7 @@ function Footer(props) {
                 <Link to="#">Terms & Conditions</Link>
               </li>
               <li>
-                <Link to="/contact">Contact Us</Link>
+                <Link to="#">Contact Us</Link>
               </li>
             </ul>
           </div>
