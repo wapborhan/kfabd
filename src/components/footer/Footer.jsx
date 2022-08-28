@@ -162,7 +162,10 @@ function Footer(props) {
         <div className="container">
           <div className="wrap-fx">
             <div className="Copyright">
-              <p>KFAbd {d.getFullYear()}- ALL rights reserved</p>
+              <p>
+                KFAbd {d.getFullYear()}- ALL rights reserved | Designed By{" "}
+                <a href="https://www.srdreamlab.com">SR Dream Lab</a>
+              </p>
             </div>
             <ul className="list">
               <li>
