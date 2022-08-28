@@ -7,6 +7,7 @@
 // import Community from "./Community";
 // import FAQ from "./FAQ";
 import Page404 from "./404";
+import CoomingSoon from "./CoomingSoon";
 // import RoadMapOne from "./RoadMapOne";
 // import RoadMapTwo from "./RoadMapTwo";
 // import NftItem from "./NftItem";
@@ -26,6 +27,7 @@ const routes = [
   // { path: "/community", component: <Community /> },
   // { path: "/faq", component: <FAQ /> },
   { path: "/404", component: <Page404 /> },
+  { path: "/", component: <CoomingSoon /> },
   // { path: "/road-map-v1", component: <RoadMapOne /> },
   // { path: "/road-map-v2", component: <RoadMapTwo /> },
   // { path: "/nft-item", component: <NftItem /> },

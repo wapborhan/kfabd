@@ -1,8 +1,11 @@
 import React, { useEffect, Fragment } from "react";
 import AOS from "aos";
 import { Route, Routes } from "react-router-dom";
+// Import Css
 import "../src/assets/font/font-awesome.css";
-import "./App.scss";
+import "./scss/components/section.scss";
+import "./scss/components/form.scss";
+import "./scss/components/box.scss";
 
 //
 import Header from "./components/header/Header";
