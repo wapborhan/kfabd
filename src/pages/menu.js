@@ -82,7 +82,7 @@ const menus = [
   },
   {
     id: 4,
-    name: "Nft",
+    name: "Team",
     links: "#",
     // namesub: [
     //   {

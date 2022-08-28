@@ -165,7 +165,10 @@ function Footer(props) {
               <p>KFAbd {d.getFullYear()}- ALL rights reserved</p>
             </div>
             <div className="right">
-              Designed By <a href="https://www.srdreamlab.com">SR Dream Lab</a>
+              Designed By{" "}
+              <a href="https://www.srdreamlab.com" target="_BLANK">
+                SR Dream Lab
+              </a>
             </div>
             {/* <ul className="list">
               <li>
