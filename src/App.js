@@ -9,7 +9,7 @@ import Footer from "./components/footer/Footer";
 import routes from "./pages";
 import Page404 from "./pages/404";
 
-const MainComponents = () => {
+const App = () => {
   // useEffect(() => {
   //   AOS.init({
   //     duration: 2000,
@@ -30,4 +30,4 @@ const MainComponents = () => {
   );
 };
 
-export default MainComponents;
+export default App;
