@@ -5,7 +5,7 @@ import menus from "../../pages/menu";
 
 import "./styles.scss";
 import logo from "../../assets/images/logo/logo.png";
-import Button from "../button";
+import Button from "../button/Button";
 
 const Header = () => {
   const [scroll, setScroll] = useState(false);

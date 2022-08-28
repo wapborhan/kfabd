@@ -1,0 +1,31 @@
+@use '../' as *;
+
+.widget-search {
+    max-width: 330px;
+    margin-bottom: 40px;
+    form {
+        position: relative;
+        button {
+            right: 20px;
+            top: 12px;
+            transform: rotate(93deg);
+            position: absolute;
+            background: none;
+            border: none;
+            i {
+                font-size: 16px;
+                color: $color-main2;
+            }
+        }
+        input {
+            @include transition3;
+            height: 52px;
+            padding: 13px 15px 13px 20px;
+            background: transparent;
+            color: $color-hover;
+            &:focus {
+                border-color: $color-hover;
+            }
+        }
+    }
+}
