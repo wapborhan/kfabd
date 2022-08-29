@@ -1,4 +1,4 @@
-// import HomeOne from "./HomeOne";
+import HomeOne from "./HomeOne";
 // import HomeTwo from "./HomeTwo";
 // import HomeThree from "./HomeThree";
 // import AboutOne from "./AboutOne";
@@ -18,7 +18,7 @@ import CoomingSoon from "./CoomingSoon";
 // import TeamDetail from "./TeamDetail";
 
 const routes = [
-  // { path: "/", component: <HomeOne /> },
+  { path: "/", component: <HomeOne /> },
   // { path: "/home-v2", component: <HomeTwo /> },
   // { path: "/home-v3", component: <HomeThree /> },
   // { path: "/about-v1", component: <AboutOne /> },
@@ -26,7 +26,7 @@ const routes = [
   // { path: "/coming-soon", component: <ComingSoon /> },
   // { path: "/community", component: <Community /> },
   // { path: "/faq", component: <FAQ /> },
-  { path: "/404", component: <Page404 /> },
+  // { path: "/404", component: <Page404 /> },
   { path: "/", component: <CoomingSoon /> },
   // { path: "/road-map-v1", component: <RoadMapOne /> },
   // { path: "/road-map-v2", component: <RoadMapTwo /> },
