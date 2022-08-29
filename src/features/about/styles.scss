@@ -1,0 +1,138 @@
+@use  '../../scss/' as *;
+
+.tf-about {
+    padding: 80px 0 55px;
+    .tf-title {
+
+        &.st2 {
+            margin-bottom: 17px;
+            text-align: left;
+        }
+    }
+    .content-about {
+        
+        .social {
+            @include flex2;
+            margin-top: 47px;
+            li {
+                @include flex(center,center);
+                margin-right: 24px;
+                width: 68px;
+                height: 68px;
+                &.corner-box {
+                    background: #0e2230;
+                    &::after,
+                    &::before {
+                        background: #0e2230;
+                    }
+                    &::before {
+                        width: calc(130% - 3rem);
+                    }
+                    &::after {
+                        height: calc(130% - 3rem);
+                    }
+                }
+                &:hover {
+                    box-shadow: $box-shadow;
+                }
+            }
+        }
+    }
+    .tf-button {
+        margin-top: 44px;
+        height: 64px;
+        line-height: 64px;
+        padding: 0 33px;
+    }
+    &.style2 {
+        padding: 90px 0 80px;
+        .container {
+            max-width: 960px;
+            .content-about {
+                text-align: center;
+            }
+            .btn-about {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.wrap-about {
+    .box-text {
+        margin-bottom: 24px;
+        background: $bg-4;
+    }
+    &.style2 {
+        .box-text {
+            margin-bottom: 30px;
+
+        }
+    }
+    
+}
+
+.home-1 .wrap-about{
+    padding-left: 170px;
+
+    @include tablet {
+        padding-left: 0;
+        padding-top: 60px;
+    }
+}
+
+.home-1 .tf-about .box-text:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.home-2 .tf-about {
+    background: $bg-3;
+    .content-about {
+        margin-bottom: 50px;
+    }
+    .box-text {
+        background: #0e2230;
+    }
+
+    .tf-button {
+        margin-top: 19px;
+    }
+}
+
+.home-3 .tf-about .tf-button{
+    margin-top: 19px;
+}
+
+.about .tf-about , .about-v2 .tf-about{
+    padding: 80px 0 0;
+    .content-about {
+        margin-bottom: 61px;
+    }
+
+    .box-text {
+        margin-bottom: 30px;
+    }
+    .tf-button {
+        margin-top: 19px;
+    }
+} 
+
+.about-v2 .tf-about {
+    padding-bottom: 80px;
+}
+
+.community {
+    .tf-about {
+        padding: 80px 0 0;
+        .wrap-about {
+            padding-left: 70px;
+            @include tablet {
+                padding-left: 0;
+            }
+        }
+    }
+    .tf-project {
+        padding: 58px 0 80px;
+    }
+    
+}

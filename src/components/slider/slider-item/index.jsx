@@ -11,6 +11,7 @@ SliderItem.propTypes = {
 };
 
 function SliderItem(props) {
+  console.log(props);
   const { item } = props;
 
   const [isOpen, setOpen] = useState(false);

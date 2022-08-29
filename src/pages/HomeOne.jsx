@@ -2,12 +2,13 @@ import React from "react";
 
 import Slider from "../components/slider/index";
 import dataSlider from "../assets/fake-data/data-slider";
-// import About from "../features/about";
+import About from "../features/about";
+import dataAbout from "../assets/fake-data/data-about";
 // import Project from "../features/project";
 // import dataProject from "../assets/fake-data/dataProject";
-// import dataAbout from "../assets/fake-data/data-about";
-// import RoadMap from "../features/roadmap";
-// import dataRoadmap from "../assets/fake-data/data-roadmap";
+
+import RoadMap from "../features/roadmap";
+import dataRoadmap from "../assets/fake-data/data-roadmap";
 // import Work from "../features/work";
 // import dataWork from "../assets/fake-data/data-work";
 // import Team from "../features/team";
@@ -24,21 +25,21 @@ function HomeOne(props) {
     <div className="home-1">
       <Slider data={dataSlider} />
 
-      {/* <About data={dataAbout} />
+      <About data={dataAbout} />
 
-      <Project data={dataProject} />
+      {/* <Project data={dataProject} /> */}
 
       <RoadMap data={dataRoadmap} />
 
-      <Work data={dataWork} />
+      {/* <Work data={dataWork} /> */}
 
-      <Team data={dataTeam} />
+      {/* <Team data={dataTeam} /> */}
 
-      <Blog data={dataBlog} />
+      {/* <Blog data={dataBlog} /> */}
 
-      <Partner data={dataPartner} />
+      {/* <Partner data={dataPartner} /> */}
 
-      <FAQ data={dataFaq} /> */}
+      {/* <FAQ data={dataFaq} />  */}
     </div>
   );
 }

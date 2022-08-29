@@ -1,0 +1,35 @@
+@use '../../../scss/' as *;
+.box-text {
+    position: relative;
+    background: $bg-4;
+    transform: translateY(0);
+    &.active,
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+    .h7 {
+        text-transform: capitalize;
+        margin-bottom: 16px;
+    }
+    p {
+        color: $color-main1;
+        margin-bottom: 0;
+    }
+    .number {
+        position: absolute;
+        top: -2px;
+        left: 18px;
+        font-size: 80px;
+        line-height: 96px;
+        color: rgba(34, 183, 143, 0.1);
+        font-weight: 700;
+        font-family: $font-main;
+    }
+    @include tablet {
+        margin-bottom: 30px;
+    }
+}
+
+.home-2 .box-text , .home-3 .box-text  {
+    margin-bottom: 30px;
+}

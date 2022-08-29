@@ -1,0 +1,53 @@
+@use '../../scss/' as *;
+.tf-project {
+    padding: 0 ;
+    .container-fluid {
+        max-width: 1800px;
+        .swiper {
+            overflow: unset;
+
+            @include tablet {
+                overflow: hidden;
+            }
+        }
+    }
+}
+.home-1 .tf-project {
+    padding: 0;
+
+    
+}
+.home-2 .tf-project {
+    padding: 92px 0 52px;
+}
+.home-3 .tf-project , .community .tf-project {
+    .swiper {
+        overflow: unset;
+
+        @include tablet {
+            overflow: hidden;
+        }
+        .img-box {
+            padding: 20px;
+            img {
+                width: 410px;
+                height: 410px;
+            }
+        }
+    }
+}
+
+.nft-item .tf-button {
+    margin-top: 44px;
+    height: 64px;
+    line-height: 64px;
+    padding: 0 33px;
+}
+
+.nft-details .swiper {
+    width: 1410px;
+
+    @include tablet {
+        overflow: hidden;
+    }
+}

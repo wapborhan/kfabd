@@ -1,0 +1,17 @@
+@use '../../scss/' as *;
+.tf-team {
+    background: $bg-3;
+}
+
+.home-2 {
+    .tf-team {
+        padding: 91px 0 51px;
+    }
+}
+
+.about {
+    .tf-team {
+        padding: 91px 0 0;
+        background: transparent;
+    }
+}

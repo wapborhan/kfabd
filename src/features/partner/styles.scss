@@ -1,0 +1,31 @@
+@use '../../scss/' as *;
+
+.partner .swiper {
+    margin-bottom: 74px;
+
+    &:nth-last-child(1) {
+        margin-bottom: 31px;
+    }
+}
+
+.home-1 .partner{
+    background: $bg-3;
+}
+.home-2 .partner{
+    background: $bg-main;
+
+    padding: 80px 0 60px;
+}
+
+.home-3 .partner {
+    background: $bg-main;
+    padding: 86px 0 50px;
+}
+
+.about .partner {
+    padding: 53px 0 49px;
+}
+
+.about-v2 .partner {
+    padding: 80px 0 50px;
+}

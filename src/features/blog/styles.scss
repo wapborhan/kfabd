@@ -1,0 +1,59 @@
+@use '../../scss/' as *;
+.blog .tf-button {
+    height: 66px;
+    line-height: 64px;
+    padding: 0 33px;
+}
+.home-2 .blog , .home-3 .blog {
+    .swiper {
+        padding-top: 91px;
+        margin-top: -91px;
+
+        .swiper-button-next , .swiper-button-prev {
+            top: 23px;
+
+            @include mobile {
+                display: none;
+            }
+        }
+        .swiper-button-next {
+            right: -12px;
+        }
+        .swiper-button-prev {
+            left: 92%;
+
+            @include tablet {
+                left: 86%;
+            }
+        }
+    }
+}
+.home-2 .blog {
+    padding: 88px 0 100px;
+
+    
+}
+
+.home-3 .blog {
+    padding: 88px 0 99px;
+}
+
+.post-details {
+    .blog {
+        padding: 0 0 84px;
+
+        .tf-title.st2 {
+            text-align: center;
+            margin-bottom: 52px;
+        }
+
+        .content-item .content {
+            .h7 {
+                margin-bottom: 0;
+            }
+            p {
+                display: none;
+            }
+        }
+    }
+}
