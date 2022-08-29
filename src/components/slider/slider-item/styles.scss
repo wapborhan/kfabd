@@ -31,14 +31,16 @@
             height: 944px;
         }
         .box-slider__main {
-            padding: 259px 0 0;
+            padding: 120px 0 0;
         }
         .content-box {
             padding-left: 44px;
-            padding-bottom: 182px;
+            padding-bottom: 65px;
             h1 {
                 text-transform: uppercase;
                 margin-bottom: 16px;
+                font-size: 60px;
+                line-height: 1;
 
             }
             p {
@@ -66,7 +68,7 @@
             height: 100%;
             img {
                 position: absolute;
-                bottom: 0;
+                bottom: 60px;
                 right: 0;
                 animation: move4 5s infinite linear;
             }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-// import "./styles.scss";
+import "./styles.scss";
 
 import { Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
