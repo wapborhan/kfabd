@@ -1,6 +1,6 @@
 import React from "react";
 
-import Slider from "../components/sidebar/index";
+import Slider from "../components/slider/index";
 import dataSlider from "../assets/fake-data/data-slider";
 // import About from "../features/about";
 // import Project from "../features/project";
