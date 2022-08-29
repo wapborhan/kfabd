@@ -7,7 +7,7 @@ import dataAbout from "../assets/fake-data/data-about";
 // import Project from "../features/project";
 // import dataProject from "../assets/fake-data/dataProject";
 
-import RoadMap from "../features/roadmap";
+// import RoadMap from "../features/roadmap";
 import RoadMapTwo from "./RoadMapTwo";
 import dataRoadmap from "../assets/fake-data/data-roadmap";
 
@@ -33,6 +33,8 @@ function HomeOne(props) {
       <About data={dataAbout} />
 
       {/* <Project data={dataProject} /> */}
+
+      {/* <RoadMap data={dataRoadmap} /> */}
 
       <RoadMapTwo data={dataRoadmap} />
 
