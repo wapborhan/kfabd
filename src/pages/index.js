@@ -7,7 +7,7 @@ import HomeOne from "./HomeOne";
 // import Community from "./Community";
 // import FAQ from "./FAQ";
 import Page404 from "./404";
-import CoomingSoon from "./CoomingSoon";
+import ComingSoon from "./ComingSoon";
 // import RoadMapOne from "./RoadMapOne";
 // import RoadMapTwo from "./RoadMapTwo";
 // import NftItem from "./NftItem";
@@ -19,6 +19,7 @@ import CoomingSoon from "./CoomingSoon";
 
 const routes = [
   { path: "/", component: <HomeOne /> },
+  // { path: "/", component: <ComingSoon /> },
   // { path: "/home-v2", component: <HomeTwo /> },
   // { path: "/home-v3", component: <HomeThree /> },
   // { path: "/about-v1", component: <AboutOne /> },
@@ -27,7 +28,7 @@ const routes = [
   // { path: "/community", component: <Community /> },
   // { path: "/faq", component: <FAQ /> },
   // { path: "/404", component: <Page404 /> },
-  { path: "/", component: <CoomingSoon /> },
+
   // { path: "/road-map-v1", component: <RoadMapOne /> },
   // { path: "/road-map-v2", component: <RoadMapTwo /> },
   // { path: "/nft-item", component: <NftItem /> },
