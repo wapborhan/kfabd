@@ -7,21 +7,22 @@ import img2 from "../images/common/itemslider2.png";
 const dataSlider = [
   {
     id: 1,
-    title: "1",
+    title: "1 CYbox nft collectionS for everyone",
     desc: "Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.",
     bgImg: bgImg1,
     img: img1,
   },
   {
     id: 2,
-    title: "2",
+    title: "2 CYbox nft collectionS for everyone",
     desc: "Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.",
     bgImg: bgImg1,
-    classAction: "two",
+    // classAction: "two",
+    img: img2,
   },
   {
     id: 3,
-    title: "3",
+    title: "3 CYbox nft collectionS for everyone",
     desc: "Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.",
     bgImg: bgImg1,
     classAction: "three",
