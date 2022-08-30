@@ -2,7 +2,7 @@ import bgImg1 from "../images/background/bg-1.jpg";
 import bgImg2 from "../images/background/bg-3.jpg";
 import bgImg3 from "../images/background/bg-4.jpg";
 import img1 from "../images/common/itemslider.png";
-import img2 from "../images/common/itemslider1.png";
+import img2 from "../images/common/itemslider2.png";
 
 const dataSlider = [
   {
@@ -18,7 +18,6 @@ const dataSlider = [
     desc: "Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.",
     bgImg: bgImg1,
     classAction: "two",
-    img: img2,
   },
   {
     id: 3,
@@ -32,7 +31,7 @@ const dataSlider = [
     title: "CYbox nft collectionS for everyone",
     desc: "Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.",
     bgImg: bgImg1,
-    img: img1,
+    img: img2,
   },
   {
     id: 5,
