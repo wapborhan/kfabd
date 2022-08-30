@@ -18,7 +18,7 @@ const dataSlider = [
     desc: "Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.",
     bgImg: bgImg1,
     classAction: "two",
-    img: img1,
+    img: img2,
   },
   {
     id: 3,
