@@ -137,19 +137,20 @@ function BlogDetails(props) {
                 <p className="st2">
                   Setting up your avatar and personalizing your nickname on
                   Binance is quick and easy. Users can go to binance.com under
-                  Dashboard > Settings > My Profile > Avatar and Nickname. For
-                  those of you who own NFT assets, you can select the NFT you
-                  want to use from your collection as your avatar to personalize
-                  your profile. For users who do not own any NFT avatars, check
-                  out the NFT avatar collections page to get started.
+                  Dashboard {">"} Settings {">"} My Profile {">"} Avatar and
+                  Nickname. For those of you who own NFT assets, you can select
+                  the NFT you want to use from your collection as your avatar to
+                  personalize your profile. For users who do not own any NFT
+                  avatars, check out the NFT avatar collections page to get
+                  started.
                 </p>
                 <p>
                   Alternatively, if you’re on nft.binance.com, go to User Center
-                  > Settings > Basic > Set Avatar and Nickname, and you’ll be
-                  redirected to the main site. Binance NFT Creators have the
-                  option of setting their Avatars on nft.binance.com. Once you
-                  set your new unique nickname, it will be standardized and used
-                  across the Binance ecosystem.
+                  {">"} Settings {">"} Basic {">"} Set Avatar and Nickname, and
+                  you’ll be redirected to the main site. Binance NFT Creators
+                  have the option of setting their Avatars on nft.binance.com.
+                  Once you set your new unique nickname, it will be standardized
+                  and used across the Binance ecosystem.
                 </p>
               </div>
               <div className="content-details">
